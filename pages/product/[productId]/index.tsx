@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 
 const ProductDetail = () => {
   const router = useRouter();
-  //   query.productId because that's the name of the file
+  //   query.productId because that's the name of the folder
   //   router.query.productId will return whatever number is after /product
   // ex. if the url is /product/1, router.query.productId will return 1
   //   this can also be any string (so /hello would return 'hello')
